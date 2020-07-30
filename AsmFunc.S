@@ -6,7 +6,7 @@
 .section .data
 
 hello1:
-.ascii "Hello from ASM."
+.asciz "Hello from ASM."
 
 .section .text
 .func _hello_from_asm
